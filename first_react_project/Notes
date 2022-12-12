@@ -1,0 +1,5 @@
+Run command
+1. Install Yarn
+2. Install all necessary things: yarn lint
+3. create new file .eslintrc and place some configs in it.
+
