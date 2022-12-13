@@ -24,9 +24,14 @@
   "rules": {
     "react/react-in-jsx-scope": 0,
     "react-hooks/rules-of-hooks": "error",
-    "no-console": 0,
+    //"no-console": 0,
+    "no-console": {
+      "severity": 1
+    },
     "react/state-in-constructor": 0,
     "indent": 0,
+
+    // "indent": ["error", "tab"],
     "linebreak-style": 0,
     "react/prop-types": 0,
     "jsx-a11y/click-events-have-key-events": 0,
@@ -45,9 +50,11 @@
         "tabWidth": 4,
         "semi": true,
         "endOfLine": "auto"
+        // "useTabs": false
       }
     ]
   },
+
   "plugins": ["prettier", "react", "react-hooks"]
   //"plugins": ["prettier", "react-hooks"]
 }

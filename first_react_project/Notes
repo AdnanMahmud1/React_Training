@@ -9,7 +9,7 @@ Run command
    npm install eslint @babel/core @babel/eslint-parser --save-dev
    Add config in "parser": "@babel/eslint-parser" in .eslintrc
    add file .babelrc file with the following coonfig
-   run: npx eslint --fix .
+   run: npx eslint --fix . or npm run lint -- --fix
 
 5. Update these 2 packages
    npm i eslint-plugin-jsx-a11y@latest
