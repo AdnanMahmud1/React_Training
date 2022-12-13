@@ -20,6 +20,7 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
   //"prettier.disableLanguages": ["javascript", "javascriptreact"],
   // emmet
   "emmet.triggerExpansionOnTab": true,

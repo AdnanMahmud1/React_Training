@@ -3,3 +3,9 @@ Run command
 2. Install all necessary things: yarn lint
 3. create new file .eslintrc and place some configs in it.
 
+4. Error in Module not found/ no buble config found
+Soln: install 
+    npm install eslint @babel/core @babel/eslint-parser --save-dev
+Add config in "parser": "@babel/eslint-parser" in .eslintrc
+add file .babelrc file with the following coonfig
+run: npx eslint --fix .

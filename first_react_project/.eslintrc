@@ -8,7 +8,12 @@
   ],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 8
+    "sourceType": "module",
+    //"requireConfigFile": false,
+    "ecmaVersion": 8,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
   },
   "env": {
     "browser": true,
